@@ -1,3 +1,15 @@
+section#two {
+	background-color: #2B4162;
+}
 footer#footer {
-	background-color: #335145;
+	background-color: #06A77D;
+}
+section#cloudops {
+	background-color: #2B4162;	
+}
+section#tag {
+	background-color: #2B4162;	
+}
+ul#developer {
+	color: #FFFFFF;
 }
