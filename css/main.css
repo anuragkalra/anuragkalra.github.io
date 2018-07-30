@@ -1,0 +1,250 @@
+/*----global----*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  font-family: 'Inconsolata', monospace;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  font-size: 108px;
+  font-weight: 100;
+  color: #3356CB;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 100;
+  color: #3356CB;
+}
+
+p {
+  font-size: 32px;
+  font-weight: 100;
+  color: #0B8B78;
+}
+
+.company {
+  color: #EB8015;
+}
+
+/*----nav----*/
+nav {
+  line-height: 85px;
+  text-align: right;
+  background: #3356CB;
+  padding: 0 5%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0 20px;
+}
+
+nav #brand {
+  float: left;
+}
+
+/*----header----*/
+header {
+  height: 700px;
+  min-height: 700px;
+  padding: 0 5%;
+}
+
+header h1 {
+  text-align: center;
+  padding: 20px 0px;
+}
+
+header h2 {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+}
+
+header h3 {
+  display: inline;
+}
+
+header h3 a {
+  text-decoration: none;
+  color: #EB8015;
+  padding: 0px 10px;
+}
+
+.CTA {
+  text-align: center;
+  padding: 20px;
+}
+
+#letsBuild {
+  color: #0B8B78;
+}
+
+/*----icons----*/
+.icons {
+  padding: 5% 0;
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+
+.icons i {
+  padding: 0 40px;
+  opacity: 0.4;
+  font-size: 100px;
+}
+
+
+/*----photos----*/
+.photos {
+  display: none;
+}
+
+
+/*----aboutMe----*/
+.aboutMe {
+  padding: 1% 5%;
+}
+
+.aboutMe p {
+  padding: 30px 0 0 0;
+  width: 60%;
+}
+
+/*----professionalExperience----*/
+.professionalExperience {
+  padding: 1% 5%;
+}
+
+.professionalExperience p {
+  padding: 30px 0 0 0;
+  width: 60%
+}
+
+/*----contactMe----*/
+.contactMe {
+  padding: 1% 5%;
+}
+
+.contactMe p {
+  padding: 30px 0 0 0;
+}
+
+.contactMe div {
+  padding: 10px 0;
+}
+
+.contactMe a {
+  text-decoration: none;
+  color: black;
+  padding: 0px 10px;
+}
+
+.contactMe i {
+  font-size: 42px;
+}
+
+/*----footer----*/
+footer {
+  background: #0B8B78;
+  color: white;
+  padding: 5px 5%;
+}
+
+footer p {
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+/*----responsive----*/
+@media only screen and (max-width: 1000px) {
+  header {
+    height: 900px;
+    min-height: 900px;
+  }
+
+  header h2 {
+    width: 100%;
+  }
+
+  .icons i {
+    padding: 10px;
+    font-size: 150px;
+  }
+
+  .aboutMe {
+    text-align: center;
+  }
+
+  .aboutMe p {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .professionalExperience {
+    text-align: center;
+  }
+
+  .professionalExperience p {
+    padding: 10px;
+    width: 100%;
+  }
+
+  .contactMe {
+    text-align: center;
+  }
+  .contactMe p {
+    padding: 10px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    height: 800px;
+    min-height: 800px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  p {
+    font-size: 24px;
+  }
+
+  nav {
+    height: 70px;
+  }
+
+  .navigation a{
+    visibility: hidden;
+  }
+
+  .icons i {
+    font-size: 150px;
+  }
+}
