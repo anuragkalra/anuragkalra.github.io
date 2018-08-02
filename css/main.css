@@ -106,7 +106,7 @@ header h3 a {
 .icons i {
   padding: 0 40px;
   opacity: 0.4;
-  font-size: 100px;
+  font-size: 60px;
 }
 
 
@@ -122,7 +122,7 @@ header h3 a {
 }
 
 .aboutMe p {
-  padding: 30px 0 0 0;
+  padding: 5px 0 0 0;
   width: 60%;
 }
 
@@ -132,7 +132,7 @@ header h3 a {
 }
 
 .professionalExperience p {
-  padding: 30px 0 0 0;
+  padding: 5px 0 0 0;
   width: 60%
 }
 
@@ -142,7 +142,7 @@ header h3 a {
 }
 
 .contactMe p {
-  padding: 30px 0 0 0;
+  padding: 5px 0 0 0;
 }
 
 .contactMe div {
@@ -151,11 +151,12 @@ header h3 a {
 
 .contactMe a {
   text-decoration: none;
-  color: black;
+  color: #EB8015;
   padding: 0px 10px;
 }
 
 .contactMe i {
+  opacity: 0.8;
   font-size: 42px;
 }
 
