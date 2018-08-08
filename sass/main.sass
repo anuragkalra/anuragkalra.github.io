@@ -1,0 +1,163 @@
+@import "colors"
+
+/*----global----*/
+*
+  margin: 0
+  padding: 0
+  border: 0
+  outline: 0
+  font-size: 100%
+  vertical-align: baseline
+
+html
+  font-family: 'Inconsolata', monospace
+
+body
+  width: 100%
+
+h1
+  font-size: 108px
+  font-weight: 100
+  color: $light-blue
+
+h2
+  font-size: 48px
+  font-weight: 100
+  color: $purple
+
+p
+  font-size: 24px
+  font-weight: 100
+  color: $light-blue
+
+/*----nav----*/
+nav
+  line-height: 72px
+  text-align: right
+  background: $dark-blue
+  padding: 0 5%
+
+  a
+    color: white
+    text-decoration: none
+    font-size: 24px
+    padding: 0 20px
+
+  .brand
+    float: left
+/*----header----*/
+header
+  height: 700px
+  min-height: 700px
+  padding: 0 5%
+  text-align: center
+
+  h1
+    padding: 20px 0px
+
+  h2
+    width: 45%
+    margin: auto
+
+  .callToAction
+    padding: 10px 0px
+
+    h3
+      display: inline
+
+  a
+    text-decoration: none
+    color: $cta-orange
+    padding: 0px 20px
+
+
+/*----icons----*/
+.icons
+  padding: 5% 0
+  width: 60%
+  margin: auto
+  text-align: center
+
+  i
+    font-size: 60px
+    padding: 0 40px
+    opacity: 0.4
+
+/*----content----*/
+.content
+  padding: 1% 5%
+
+  p
+    width: 60%
+    padding: 5px 0 0 0
+/*----about----*/
+/*----professionalExperience----*/
+#professionalExperience
+  .company a
+    text-decoration: none
+    color: $company-orange
+
+/*----contactMe----*/
+#contactMe
+  div
+    padding: 10px 0
+
+    a
+      color: $company-orange
+      padding: 0px 10px
+
+    i
+      opacity: 0.8
+      font-size: 42px
+/*----footer----*/
+footer
+  background: $dark-blue
+  padding: 15px 5%
+
+  p
+    text-align: center
+    color: white
+
+/*----responsive----*/
+@media only screen and (max-width: 1000px)
+  header
+    height: 800px
+    min-height: 800px
+
+    h2
+      width: 100%
+
+  .icons i
+    padding: 20px
+    font-size: 120px
+
+  .content
+    text-align: center
+    p
+      padding: 10px
+      width: 100%
+
+
+
+@media only screen and (max-width: 600px)
+  header
+    height: 800px
+    min-height: 800px
+
+  h1
+    font-size: 48px
+
+  h2
+    font-size: 32px
+
+  p
+    font-size: 20px
+
+  nav
+    height: 60px
+
+  .navigation a
+    visibility: hidden
+
+  .icons i
+    font-size: 150px
