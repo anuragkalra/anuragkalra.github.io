@@ -23,6 +23,11 @@ h2 {
   font-weight: 100;
   color: #663C61; }
 
+h3 {
+  font-size: 28px;
+  font-weight: 100;
+  color: #18243F; }
+
 p {
   font-size: 24px;
   font-weight: 100;
@@ -91,6 +96,10 @@ header {
 #professionalExperience .company a {
   text-decoration: none;
   color: #EB8015; }
+
+/*----portfolio---- */
+#portfolio p {
+  color: #19647E; }
 
 /*----contactMe---- */
 #contactMe div {
