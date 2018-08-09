@@ -99,6 +99,7 @@ header {
 
 /*----portfolio---- */
 #portfolio p {
+  padding: 5px 0px;
   color: #19647E; }
 
 /*----contactMe---- */
