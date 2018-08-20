@@ -41,6 +41,8 @@ nav {
     padding: 0 20px; }
   nav .brand {
     float: left; }
+  nav div a:hover {
+    color: #E56A3D; }
 
 /*----header---- */
 header {
