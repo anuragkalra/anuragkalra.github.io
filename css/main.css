@@ -11,7 +11,8 @@ html {
   font-family: "Inconsolata", monospace; }
 
 body {
-  width: 100%; }
+  width: 100%;
+  background-color: #F0F0F0; }
 
 h1 {
   font-size: 108px;
@@ -22,6 +23,15 @@ h2 {
   font-size: 48px;
   font-weight: 100;
   color: #663C61; }
+
+h3 {
+  font-size: 28px;
+  font-weight: 100;
+  color: #18243F; }
+
+h4 {
+  font-size: 26px;
+  font-weight: 100; }
 
 p {
   font-size: 24px;
@@ -93,6 +103,22 @@ header {
 #professionalExperience .company a {
   text-decoration: none;
   color: #EB8015; }
+
+/*----portfolio---- */
+#portfolio h3 {
+  padding: 8px 0px; }
+#portfolio h4 {
+  padding: 10px 0px; }
+#portfolio h4 a {
+  text-decoration: none;
+  color: #E56A3D; }
+#portfolio p {
+  color: #18243F;
+  font-size: 18px; }
+
+#animated-slider {
+  padding: 10px;
+  width: 300px; }
 
 /*----contactMe---- */
 #contactMe div {
