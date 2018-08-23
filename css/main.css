@@ -115,10 +115,16 @@ header {
 #portfolio p {
   color: #18243F;
   font-size: 18px; }
+#portfolio p a {
+  text-decoration: none;
+  color: #E56A3D; }
 
 #animated-slider {
   padding: 10px;
-  width: 300px; }
+  width: 200px; }
+
+#yung-seth-logo {
+  width: 200px; }
 
 /*----contactMe---- */
 #contactMe div {
